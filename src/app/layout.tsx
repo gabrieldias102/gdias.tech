@@ -20,7 +20,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/imgs/logo-white.ico" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} w-full h-screen`}>{children}</body>
     </html>
   );
 }
