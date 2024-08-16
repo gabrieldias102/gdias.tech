@@ -6,7 +6,7 @@ export default function Home() {
         🚧 Pardon the dust! I&apos;m busy coding like mad scientists 🧪🔧 to
         bring this site to life. Check back soon for something awesome! In the
         meantime, feel free to imagine a website so cool, it blows your socks
-        off 🧦💨!
+        off 🧦💨
       </p>
     </div>
   );
