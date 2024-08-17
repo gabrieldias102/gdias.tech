@@ -5,6 +5,7 @@ import Technologies from "@/Technologies";
 import Strengths from "@/Strengths";
 import ImageGallery from "@/ImageGallery";
 import Contact from "@/Contact";
+import Footer from "@/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Technologies />
       <Strengths />
       <Contact />
+      <Footer />
     </div>
   );
 }

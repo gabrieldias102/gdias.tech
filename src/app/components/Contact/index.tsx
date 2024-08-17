@@ -3,7 +3,7 @@ import { FaAddressCard } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className="h-full flex flex-col mx-auto text-center py-8 px-20">
+    <div className="h-full flex flex-col mx-auto text-center py-8 px-20 pb-24">
       <div className="mx-auto pb-4">
         <FaAddressCard color={"#6366F1"} size={30} />
       </div>
