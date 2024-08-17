@@ -7,10 +7,16 @@ import image4 from "images/introduction/image-4.jpg";
 import image5 from "images/introduction/image-5.jpg";
 import image6 from "images/introduction/image-6.jpg";
 
+import { motion } from "framer-motion";
+
 export default function ImageGallery() {
   return (
     <div className="hidden md:flex flex-row w-full gap-4 px-32 pb-24">
-      <div>
+      <motion.div
+        initial={{ x: "-100vw" }}
+        animate={{ x: 0 }}
+        transition={{ duration: 3 }}
+      >
         <Image
           src={image4}
           alt="The image shows a person working at a laptop in a dimly lit room, 
@@ -20,8 +26,13 @@ export default function ImageGallery() {
           adding a mysterious and cozy atmosphere to the scene."
           height={450}
         />
-      </div>
-      <div className="flex items-end pt-28">
+      </motion.div>
+      <motion.div
+        initial={{ x: "-100vw" }}
+        animate={{ x: 0 }}
+        transition={{ duration: 2.5 }}
+        className="flex items-end pt-28"
+      >
         <Image
           src={image3}
           alt="The image shows a person working at a desk with a laptop and a 
@@ -31,8 +42,13 @@ export default function ImageGallery() {
           with a tech-focused setup."
           height={425}
         />
-      </div>
-      <div className="flex flex-col gap-8 pt-8">
+      </motion.div>
+      <motion.div
+        initial={{ x: "-100vw" }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1.5 }}
+        className="flex flex-col gap-8 pt-8"
+      >
         <Image
           src={image1}
           alt="The image shows someone working at a computer in a dim room, 
@@ -50,8 +66,13 @@ export default function ImageGallery() {
           with a few other people in the background."
           height={200}
         />
-      </div>
-      <div className="flex flex-col gap-8">
+      </motion.div>
+      <motion.div
+        initial={{ x: "100vw" }}
+        animate={{ x: 0 }}
+        transition={{ duration: 3 }}
+        className="flex flex-col gap-8"
+      >
         <Image
           src={image5}
           alt="The image shows a person gaming at a computer with a colorful 
@@ -71,7 +92,7 @@ export default function ImageGallery() {
           bottle of water, and a bottle of soda. The atmosphere is warm and relaxed."
           height={225}
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
