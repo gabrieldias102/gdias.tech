@@ -1,6 +1,6 @@
 import Button from "../Button";
 
-export default function Page() {
+export default function Introduction() {
   return (
     <div className="flex flex-col sm:w-2/3 lg:w-1/3 mx-auto text-center gap-8 pt-20">
       <h1 className="text-4xl font-bold"> Hello! I'm Gabriel Dias!</h1>

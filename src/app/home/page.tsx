@@ -1,11 +1,11 @@
 "use client";
 
-import HomeSection from "../components/HomeSection";
+import Introduction from "../components/Introduction";
 
 export default function Home() {
   return (
     <div>
-      <HomeSection />
+      <Introduction />
     </div>
   );
 }
