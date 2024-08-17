@@ -10,6 +10,31 @@ export default function UnderConstruction() {
         meantime, feel free to imagine a website so cool, it blows your socks
         off 🧦💨!
       </p>
+      <div className="w-full md:w-1/2 lg:w-1/3 mx-auto pt-16">
+        <p className="text-base">
+          While this feature isn't ready, check out my socials to stay updated!
+        </p>
+        <div className="flex justify-center gap-4 mt-4">
+          <a
+            href="https://www.instagram.com/gabriel.dias102"
+            className="text-blue-500 hover:underline"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gabrieldias102"
+            className="text-blue-500 hover:underline"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://www.github.com/gabrieldias102"
+            className="text-blue-500 hover:underline"
+          >
+            GitHub
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
