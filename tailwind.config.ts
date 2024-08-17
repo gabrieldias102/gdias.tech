@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         accent: "#6366F1",
         "accent-hover": "#8861ee",
+        "dark-background-secondary": "#151920",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
