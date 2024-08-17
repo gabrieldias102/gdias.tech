@@ -12,7 +12,7 @@ export default function Strengths() {
     <div className="flex flex-col sm:w-2/3 lg:w-2/3 mx-auto text-center py-20 px-4">
       <p className="text-lg font-bold text-accent">Developer</p>
       <h1 className="text-4xl font-bold pb-8"> My Strengths</h1>
-      <p className="text-lg font-thin pb-16">
+      <p className="text-lg font-thin lg:pb-16 sm:pb-8 px-4">
         Unique strengths, a strategic approach, and a strong commitment to
         development, I create reliable and innovative solutions that.
       </p>
