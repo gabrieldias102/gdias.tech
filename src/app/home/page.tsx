@@ -4,6 +4,7 @@ import Introduction from "@/Introduction";
 import Technologies from "@/Technologies";
 import Strengths from "@/Strengths";
 import ImageGallery from "@/ImageGallery";
+import Contact from "@/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <ImageGallery />
       <Technologies />
       <Strengths />
+      <Contact />
     </div>
   );
 }

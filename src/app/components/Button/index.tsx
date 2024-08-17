@@ -1,11 +1,24 @@
 import { MouseEvent } from "react";
 
 interface ButtonProps {
+  type: string;
   btnText: string;
   reference: string;
 }
 
-export default function Button({ btnText, reference }: ButtonProps) {
+export default function Button({ btnText, reference, type }: ButtonProps) {
+  const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+    event.preventDefault();
+
+    if (type === "scroll") {
+      handleScroll(event);
+    }
+
+    if (type === "link") {
+      window.location.href = reference;
+    }
+  };
+
   const handleScroll = (event: MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     const targetElement = document.getElementById(reference);
@@ -17,7 +30,7 @@ export default function Button({ btnText, reference }: ButtonProps) {
   return (
     <div>
       <button
-        onClick={handleScroll}
+        onClick={handleClick}
         className="bg-accent hover:bg-accent-hover text-white font-bold py-3 p-4 rounded-3xl"
       >
         {btnText}
