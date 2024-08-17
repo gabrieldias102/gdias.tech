@@ -7,10 +7,10 @@ export default function Footer() {
         <p>&copy; 2024 Gabriel Dias. All rights reserved.</p>
       </div>
       <div className="flex justify-center space-x-4 mb-4">
-        <a href="/about" className="hover:underline">
+        <a href="/underConstruction" className="hover:underline">
           About Me
         </a>
-        <a href="/contact" className="hover:underline">
+        <a href="/underConstruction" className="hover:underline">
           Contact
         </a>
       </div>
