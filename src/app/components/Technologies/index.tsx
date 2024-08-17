@@ -12,7 +12,7 @@ export default function Technologies() {
       <h1 className="text-xl font-semibold">
         Technologies and Tools I Work With
       </h1>
-      <div className="flex flex-col sm:flex-row lg:w-1/3 gap-12 justify-center mx-auto">
+      <div className="flex flex-col sm:flex-row lg:w-1/3 gap-12 justify-center items-center mx-auto">
         <Image
           src={typeScriptLogo}
           alt="The logo of TypeScript"
@@ -27,7 +27,7 @@ export default function Technologies() {
         />
         <Image
           src={mySQLLogo}
-          alt="The logo of Next.js"
+          alt="The logo of MySQL"
           height={30}
           quality={100}
         />
