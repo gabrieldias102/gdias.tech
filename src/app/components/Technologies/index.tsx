@@ -8,7 +8,10 @@ import mySQLLogo from "images/mysql-logo.png";
 
 export default function Technologies() {
   return (
-    <div className="bg-dark-background-secondary h-full flex flex-col mx-auto text-center gap-12 py-8 px-20">
+    <div
+      id="techs"
+      className="bg-dark-background-secondary h-full flex flex-col mx-auto text-center gap-12 py-8 px-20"
+    >
       <h1 className="text-xl font-semibold">
         Technologies and Tools I Work With
       </h1>

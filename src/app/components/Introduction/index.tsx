@@ -10,7 +10,7 @@ export default function Introduction() {
         design. Discover his projects, skills, and experiences as you navigate
         through the portfolio.
       </p>
-      <Button btnText="Explore Now" reference="/" />
+      <Button btnText="Explore Now" reference="techs" />
     </div>
   );
 }
