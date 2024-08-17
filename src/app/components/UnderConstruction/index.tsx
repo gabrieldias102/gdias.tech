@@ -1,3 +1,5 @@
+import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+
 export default function UnderConstruction() {
   return (
     <div className="flex flex-col w-full h-screen text-center justify-center gap-8 p-4">
@@ -17,21 +19,21 @@ export default function UnderConstruction() {
         <div className="flex justify-center gap-4 mt-4">
           <a
             href="https://www.instagram.com/gabriel.dias102"
-            className="text-blue-500 hover:underline"
+            className="text-blue-500 hover:underline flex items-center gap-2"
           >
-            Instagram
+            <FaInstagram /> Instagram
           </a>
           <a
             href="https://www.linkedin.com/in/gabrieldias102"
-            className="text-blue-500 hover:underline"
+            className="text-blue-500 hover:underline flex items-center gap-2"
           >
-            LinkedIn
+            <FaLinkedin /> LinkedIn
           </a>
           <a
             href="https://www.github.com/gabrieldias102"
-            className="text-blue-500 hover:underline"
+            className="text-blue-500 hover:underline flex items-center gap-2"
           >
-            GitHub
+            <FaGithub /> GitHub
           </a>
         </div>
       </div>
