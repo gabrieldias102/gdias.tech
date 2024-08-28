@@ -2,7 +2,7 @@
 
 import UnderConstruction from "@/UnderConstruction";
 
-export default function UnderConstructionPage() {
+export default function Page() {
   return (
     <div>
       <UnderConstruction />
