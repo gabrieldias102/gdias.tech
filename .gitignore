@@ -28,7 +28,12 @@ yarn-error.log*
 # local env files
 .env*.local
 
-# vercel
+# IDE
+.vscode*
+.cursor*
+.kiro*
+
+# Vercel
 .vercel
 
 # typescript

@@ -1,4 +1,7 @@
+"use client";
+
 import { MouseEvent } from "react";
+import { useRouter } from "next/navigation";
 
 interface ButtonProps {
   type: string;
@@ -7,6 +10,8 @@ interface ButtonProps {
 }
 
 export default function Button({ btnText, reference, type }: ButtonProps) {
+  const router = useRouter();
+
   const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
 
@@ -15,7 +20,7 @@ export default function Button({ btnText, reference, type }: ButtonProps) {
     }
 
     if (type === "link") {
-      window.location.href = reference;
+      router.push(reference);
     }
   };
 
